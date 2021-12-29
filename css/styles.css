@@ -1,0 +1,152 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-weight: 700;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+#title .container-fluid {
+  padding: 2% 15% 7%;
+  text-align: left;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+/* Navbar Design */
+.navbar {
+  padding: 2% 0 5%;
+}
+.special-font {
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 15px 0;
+}
+
+/* Download Button */
+.download-button {
+  margin: 20px 10px 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 980px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 5%;
+  }
+}
+
+/* Feature Section */
+#features {
+  padding: 5% 0;
+  position: relative;
+  background-color: white;
+}
+.each-feature {
+  margin: 40px 0 20px;
+}
+.feature-section-subtext {
+  color: #8f8f8f;
+}
+.feature-icon {
+  font-size: 3rem;
+  color: #ef8172;
+  margin-bottom: 16px;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+}
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 3% 7%;
+}
+.pricing-card {
+  margin: 30px 0;
+  padding: 30px 10px;
+}
+
+/* CTA */
+
+#cta {
+  padding: 7% 15%;
+}
+.cta-dbtn {
+  margin-top: 5%;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 15% 0;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+#title,
+#features,
+#testimonials,
+#press,
+#pricing,
+#cta,
+#footer {
+  text-align: center;
+}
+
+#title,
+#cta {
+  background-color: #ff4c68;
+}
+
+#title,
+#testimonials,
+.big-heading {
+  color: white;
+}
+#features .big-heading,
+#pricing .big-heading {
+  color: black;
+}
+h3,
+#features .big-heading {
+  font-size: 1.5rem;
+}
